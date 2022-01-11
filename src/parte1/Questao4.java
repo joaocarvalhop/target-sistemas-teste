@@ -14,19 +14,21 @@ imprimir(SOMA);
 
 Ao final do processamento, qual será o valor da variável SOMA?*/
 
-public class Questao01 {
+public class Questao4 {
 
 	public static void main(String[] args) {
 
 		int indice = 13, soma = 0, k = 0;
-
+//apagar int soma = 0;
+//apagar int k = 0;
+		
 		while (k < indice) {
 			k = k + 1;
 			soma = soma + k;
 		}
-
+		
 		System.out.println(soma);
-
+		
 	}
 
 }
