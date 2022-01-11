@@ -1,4 +1,4 @@
-package parte1;
+package questoes;
 
 /*1) Observe o trecho de código abaixo:
 
@@ -14,11 +14,13 @@ imprimir(SOMA);
 
 Ao final do processamento, qual será o valor da variável SOMA?*/
 
-public class Questao01 {
+public class Questao1 {
 
 	public static void main(String[] args) {
 
-		int indice = 13, soma = 0, k = 0;
+		int indice = 13;
+		int soma = 0;
+		int k = 0;
 
 		while (k < indice) {
 			k = k + 1;
